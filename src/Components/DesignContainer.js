@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PadInput from './PadInput';
-
+import PadContainer from './PadContainer.js';
 
 class DesignContainer extends Component {
    constructor(props){
@@ -14,8 +14,8 @@ render() {
 <div>
 
         <PadInput/>
-
-
+         <PadContainer/>
+            
 </div>
 
    );
